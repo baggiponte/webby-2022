@@ -3,7 +3,7 @@ from ast import literal_eval
 
 from pandas import DataFrame
 
-from src.utils._paths import RAW_DATA, PROCESSED_DATA
+from ._paths import RAW_DATA, PROCESSED_DATA
 
 
 def process_data(max_artists: int = 3) -> None:
